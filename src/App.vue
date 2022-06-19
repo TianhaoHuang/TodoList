@@ -12,13 +12,13 @@
     <!--<hello></hello>-->
   </div>
 </template>
-
+test
 <script>
 //使用ES6特性引入 localstorage 储存脚本，命名为 Storage
 import Storage from './localstorage'
 //引入 Hello.vue 组件，命名为 Hello
 import Hello from './components/Hello'
-//ES6语法，相当于 
+//ES6语法，相当于  1111
 //new Vue({})
 export default {
   name: 'app',//name属性作为组件名称，全局 ID 自动作为组件的 name
